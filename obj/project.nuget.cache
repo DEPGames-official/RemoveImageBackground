@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DSRWUlScjwk=",
+  "dgSpecHash": "OYdHCPF0ge0=",
   "success": true,
   "projectFilePath": "/home/xavs-tame/Downloads/RemoveImageBackground/RemoveImageBackground.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/xavs-tame/.nuget/packages/sixlabors.imagesharp/3.1.4/sixlabors.imagesharp.3.1.4.nupkg.sha512"
+  ],
   "logs": []
 }

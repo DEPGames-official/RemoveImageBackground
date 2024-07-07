@@ -5,8 +5,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string inputFilePath = "LogoEdited.png";  // Path to the input image
-        string outputFilePath = "OutputEditedLogo.png"; // Path to save the output image
+        string inputFilePath = "Before.png";  // Path to the input image
+        string outputFilePath = "After.png"; // Path to save the output image
 
         using (Image<Rgba32> image = Image.Load<Rgba32>(inputFilePath))
         {
@@ -26,7 +26,7 @@ class Program
                 var (x, y) = queue.Dequeue();
                 var pixel = image[x, y];
 
-                if (IsColorInWhiteOrLightGrayRange(pixel, 230, 50))
+                if (IsColorInWhiteOrLightGrayRange(pixel, 230, 150))
                 {
                     // Set the pixel to be transparent
                     image[x, y] = new Rgba32(255, 255, 255, 0);

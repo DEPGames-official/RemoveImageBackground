@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RemoveImageBackground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb0ff0d1813d0b2b0e48380a6aeebd4b6e9da73b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98ba9c3f1ea465a2aec119222a83314db9fb2e5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RemoveImageBackground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RemoveImageBackground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
