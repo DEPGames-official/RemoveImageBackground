@@ -26,7 +26,7 @@ class Program
                 var (x, y) = queue.Dequeue();
                 var pixel = image[x, y];
 
-                if (IsColorInWhiteOrLightGrayRange(pixel, 95, 150))
+                if (IsColorInWhiteOrLightGrayRange(pixel, 100, 150))
                 {
                     // Set the pixel to be transparent
                     image[x, y] = new Rgba32(255, 255, 255, 0);
